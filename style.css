@@ -227,7 +227,9 @@ header .main-menu{
 header .main-menu li {
     float: left;
     padding: 16px;
-
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
 }
 
 header .main-menu a {
@@ -239,7 +241,7 @@ header .signup{
     padding-top: 10px;
 }
 header .main-menu li:hover{
-    border-top: blue;
+    border-top-color: blue;
     border-style: solid;
 }
 header .main-menu a:visited{
@@ -249,26 +251,27 @@ header .main-menu a:hover{
     color: #0065FC;
 
 }
-header .signup a:visited{
-    color: #9F9F9F;
-}
-header .signup :hover a{
-    border-top: blue;
-    border-style: solid;
-    color: #0065FC;
-}
+
+
 
 header .signup li{
     padding:16px;
+    border: 3px;
+    border-style: solid;
+    border-color: transparent;
 }
 header .signup a {
     text-decoration: none;
     font-weight: 700;
     color: #0065FC;
     padding-top: 10px;
-
+  
 }
-
+header .signup li:hover {
+    border-top-color: blue;
+    border-style: solid;
+  
+}
 header .search {
     display: flex;
     flex-direction: column;
@@ -850,7 +853,6 @@ main .cardshort .imagewrapper {
         text-align: center;
     }
 
-    header .main-menu li:hover,
 
     header .main-menu li.active {
         border-bottom-color: blue;
