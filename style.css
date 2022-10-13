@@ -165,9 +165,11 @@ footer .column ul {
     padding: 0;
 
 }
-footer .column li{
+
+footer .column li {
     padding-bottom: 10px;
 }
+
 footer .column a {
     text-decoration: none;
     color: black;
@@ -207,9 +209,10 @@ header .menu {
     align-items: center;
 }
 
-header .logo{
+header .logo {
     margin-top: 10px;
 }
+
 header .logo img {
     max-width: 100px;
     max-height: 100px;
@@ -221,9 +224,11 @@ ul {
     padding: 0%;
 
 }
-header .main-menu{
+
+header .main-menu {
     padding-top: 10px;
 }
+
 header .main-menu li {
     float: left;
     padding: 16px;
@@ -237,41 +242,48 @@ header .main-menu a {
     color: #0065FC;
 
 }
-header .signup{
+
+header .signup {
     padding-top: 10px;
 }
-header .main-menu li:hover{
+
+header .main-menu li:hover {
     border-top-color: blue;
     border-style: solid;
 }
-header .main-menu a:visited{
+
+header .main-menu a:visited {
     color: #9F9F9F;
 }
-header .main-menu a:hover{
+
+header .main-menu a:hover {
     color: #0065FC;
 
 }
 
 
 
-header .signup li{
-    padding:16px;
+header .signup li {
+    padding: 16px;
     border: 3px;
     border-style: solid;
     border-color: transparent;
 }
+
 header .signup a {
     text-decoration: none;
     font-weight: 700;
     color: #0065FC;
     padding-top: 10px;
-  
+
 }
+
 header .signup li:hover {
     border-top-color: blue;
     border-style: solid;
-  
+
 }
+
 header .search {
     display: flex;
     flex-direction: column;
@@ -288,9 +300,11 @@ header .search h2 {
     margin-top: 40px;
     margin-bottom: 10px;
 }
+
 header .search h3 {
     margin-bottom: 10px;
 }
+
 header .search-bar {
     width: 100%;
     max-width: 700px;
@@ -357,12 +371,14 @@ header form .fa-location-dot {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-margin-bottom: 30px;
+    margin-bottom: 30px;
 
 }
-.container.two h2{
+
+.container.two h2 {
     padding-bottom: 10px;
 }
+
 main .filters {
     display: flex;
     flex-basis: 100%;
@@ -444,7 +460,6 @@ main .accomodations {
     display: grid;
     grid-template-columns: repeat(3, 30%);
     grid-template-rows: 30px 1fr 1fr;
-
     grid-auto-rows: auto;
     grid-gap: 2rem;
     background-color: #F2F2F2;
@@ -523,7 +538,6 @@ main .most_popular .oneline {
     width: 100%;
     display: block;
     font-size: 1.5em;
-
     font-weight: bold;
 }
 
@@ -535,8 +549,6 @@ main .cardlong {
     height: 140px;
     width: 100%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
-
 }
 
 main .cardlong img {
@@ -576,8 +588,6 @@ main .activities {
 
 main .activities h5 {
     padding: 10px 15px;
-
-
 }
 
 main .cardshort {
@@ -585,14 +595,9 @@ main .cardshort {
     font-size: 18px;
     margin: 3px;
     border-radius: 12px;
-    /* border-style: solid;
-    border-color: lightgrey; */
     display: flex;
     flex-direction: column;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
-
-
 }
 
 main .cardshort:first-of-type {
@@ -604,20 +609,14 @@ main .cardbig {
     font-size: 18px;
     margin: 3px;
     border-radius: 12px;
-    /* border-color: lightgrey;
-        border-style:solid; */
     flex-basis: 22.76%;
     display: flex;
     flex-direction: column;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
-
 }
 
 main .nestedflex {
     flex-basis: 22.76%;
-
-
 }
 
 main .cardshort img {
@@ -626,17 +625,11 @@ main .cardshort img {
     max-height: 150px;
     border-radius: 12px 12px 0 0;
     object-fit: cover;
-    /* padding: 3px; */
-    /* position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%); */
 }
 
 main .cardbig img {
     height: 100%;
     max-height: 390px;
-
     position: absolute;
     top: 0;
     left: 50%;
@@ -661,8 +654,6 @@ main .cardshort .imagewrapper {
     width: 100%;
     max-height: 150px;
     height: 100%;
-    /* position: relative;
-    overflow: hidden; */
 }
 
 @media screen AND (max-width: 768px) {
@@ -670,23 +661,17 @@ main .cardshort .imagewrapper {
 
     main .accomodations_mostpopular {
         display: flex;
-        /* grid-template-columns: repeat(1, 100%);
-            grid-template-rows: 30px 1fr; */
         width: 100%;
         flex-direction: column;
         border-radius: 0px;
-
-
     }
 
     main .most_popular {
         border-radius: 0px;
         border-radius: 0px;
         box-sizing: border-box;
-
         padding-left: 10px;
         padding-right: 10px;
-
     }
 
     main .accomodations {
@@ -695,15 +680,12 @@ main .cardshort .imagewrapper {
         flex-direction: column;
         box-sizing: border-box;
         grid-gap: 0;
-
-
     }
 
     main .most_popular {
         width: 100%;
         order: 1;
         margin-bottom: 10px;
-
     }
 
     header .logo {
@@ -717,8 +699,6 @@ main .cardshort .imagewrapper {
         max-height: 145px;
         font-size: 16px;
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
-
-
     }
 
     main .cardlong img {
@@ -742,7 +722,6 @@ main .cardshort .imagewrapper {
     }
 
     .container.two {
-
         display: flex;
         flex-wrap: wrap;
         justify-content: flex-start;
@@ -751,19 +730,14 @@ main .cardshort .imagewrapper {
     main .activities {
         display: inline;
         box-sizing: border-box;
-
     }
-
-
 
     main .cardbig {
         max-width: 100%;
         font-size: 18px;
         margin: 3px;
         border-radius: 12px;
-        /* border-style: solid;
-        border-color: lightgrey; */
-        display: flex;
+         display: flex;
         flex-direction: column;
         margin-bottom: 30px;
     }
@@ -780,8 +754,6 @@ main .cardshort .imagewrapper {
         border-color: #F2F2F2;
         display: flex;
         flex-direction: column;
-
-
     }
 
     main .cardbig img {
@@ -822,10 +794,8 @@ main .cardshort .imagewrapper {
     }
 
     main .container:nth-child(2) {
-
         padding-left: 0px;
         padding-right: 0px;
-
     }
 
     footer .container {
@@ -840,7 +810,6 @@ main .cardshort .imagewrapper {
     header .main-menu {
         order: 3;
         display: flex;
-
         flex-basis: 100%;
         text-decoration: solid;
     }
@@ -862,12 +831,15 @@ main .cardshort .imagewrapper {
         order: 2;
         padding-right: 15px;
     }
-    header .main-menu li:hover{
+
+    header .main-menu li:hover {
         border: none;
     }
-    header .signup :hover a{
-        border:none;
+
+    header .signup :hover a {
+        border: none;
     }
+
     main .filters h2 {
         width: 100%;
         padding: 15px;
@@ -885,7 +857,6 @@ main .cardshort .imagewrapper {
 
 @media screen AND (max-width: 1350px) {
     main .accomodations {
-
         width: 100%;
         margin-bottom: 30px;
         order: 2;
